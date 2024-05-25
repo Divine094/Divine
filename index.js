@@ -1,8 +1,8 @@
-const btnLike1 = document.getElementById("btnlike1")
-const countLike1 = document.getElementById("countlike1")
+const btnLike1 = document.getElementById("btnLike1")
+const countLike1 = document.getElementById("countLike1")
 
 function clicklike1(){
-  let totallikes = parseInt(countLike1.value) + 1
+  let totalLikes = parseInt(countLike1.value) + 1
   countLike1.textContent = totalLikes.toString()
 }
 btnLike1.addEventListener("click",clickLike1)
